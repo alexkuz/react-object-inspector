@@ -257,6 +257,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	
 	var _react2 = _interopRequireDefault(_react);
 	
+	function shortenString(str) {
+	  return str.length > 100 ? str.substr(0, 50) + '…' + str.substr(-50) : str;
+	}
+	
 	/**
 	 * A short description of the object
 	 */
@@ -288,7 +292,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	            'span',
 	            { className: className + '-object-value-string' },
 	            '"',
-	            object,
+	            this.props.preview ? shortenString(object) : object,
 	            '"'
 	          );
 	        case 'boolean':
@@ -464,7 +468,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	                propertyName
 	              ),
 	              ': ',
-	              _react2['default'].createElement(_ObjectDescription2['default'], { className: className, object: propertyValue }),
+	              _react2['default'].createElement(_ObjectDescription2['default'], { className: className, object: propertyValue, preview: true }),
 	              ellipsis
 	            ));
 	            if (ellipsis) break;
