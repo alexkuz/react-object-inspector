@@ -1,5 +1,5 @@
 {
-  "name": "react-object-inspector",
+  "name": "@alexkuz/react-object-inspector",
   "version": "0.1.4",
   "description": "Simple object inspector styled similarly to Chrome DevTools",
   "main": "lib/ObjectInspector.js",
