@@ -1,7 +1,7 @@
 {
   "name": "@alexkuz/react-object-inspector",
   "version": "0.1.4",
-  "description": "Simple object inspector styled similarly to Chrome DevTools",
+  "description": "Simple object inspector styled similarly to Chrome DevTools (temporary fork)",
   "main": "lib/ObjectInspector.js",
   "directories": {
     "example": "example"
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xyc/react-object-inspector.git"
+    "url": "https://github.com/alexkuz/react-object-inspector.git"
   },
   "keywords": [
     "react",
@@ -33,9 +33,9 @@
   "author": "Xiaoyi Chen <cxychina@gmail.com> (http://github.com/xyc)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xyc/react-object-inspector/issues"
+    "url": "https://github.com/alexkuz/react-object-inspector/issues"
   },
-  "homepage": "https://github.com/xyc/react-object-inspector",
+  "homepage": "https://github.com/alexkuz/react-object-inspector",
   "devDependencies": {
     "babel-core": "^5.4.7",
     "babel-eslint": "^3.1.9",
