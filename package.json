@@ -1,6 +1,6 @@
 {
   "name": "@alexkuz/react-object-inspector",
-  "version": "0.1.4",
+  "version": "0.1.4-react14",
   "description": "Simple object inspector styled similarly to Chrome DevTools (temporary fork)",
   "main": "lib/ObjectInspector.js",
   "directories": {
