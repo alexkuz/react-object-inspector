@@ -1,6 +1,6 @@
 {
   "name": "@alexkuz/react-object-inspector",
-  "version": "0.1.4-react14",
+  "version": "0.1.5-patch",
   "description": "Simple object inspector styled similarly to Chrome DevTools (temporary fork)",
   "main": "lib/ObjectInspector.js",
   "directories": {
@@ -47,6 +47,6 @@
     "webpack-dev-server": "^1.8.2"
   },
   "peerDependencies": {
-    "react": ">=0.13.0 || ^0.14.0-alpha"
+    "react": "^0.13.0 || ^0.14.0-rc1"
   }
 }
